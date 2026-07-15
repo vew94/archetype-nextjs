@@ -4,11 +4,12 @@
 
 ### Installing Prerequisites
 
-Please install following development prerequisites.
+Please install the following development prerequisites manually:
 
+- [mise](https://mise.jdx.dev)
 - [Git](https://git-scm.com/)
+
+Once those are installed, run `mise install` to install the remaining prerequisites:
+
 - [Node.js](https://nodejs.org/)
 - [pnpm](https://pnpm.io/)
-
-> [!TIP]  
-> If you are using [mise](https://mise.jdx.dev), you can install the prerequisites by running the following command: `mise install`

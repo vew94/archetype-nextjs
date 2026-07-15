@@ -1,3 +1,9 @@
 [tools]
 node = "26.5.0"
 pnpm = "11.13.0"
+
+[tasks.check]
+run = ["pnpm exec oxfmt --check"]
+
+[tasks.fix]
+run = ["pnpm exec oxfmt --write --no-error-on-unmatched-pattern"]
