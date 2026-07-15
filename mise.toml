@@ -3,7 +3,7 @@ node = "26.5.0"
 pnpm = "11.13.0"
 
 [tasks.check]
-run = ["pnpm exec oxfmt --check"]
+run = ["pnpm exec oxfmt --check", "pnpm exec tsc --noEmit"]
 
 [tasks.fix]
 run = ["pnpm exec oxfmt --write --no-error-on-unmatched-pattern"]
