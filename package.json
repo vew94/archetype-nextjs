@@ -8,8 +8,8 @@
     "fix": "mise run fix"
   },
   "devDependencies": {
-    "@types/node": "26.1.1",
-    "oxfmt": "0.58.0",
+    "@types/node": "26.6.3",
+    "oxfmt": "0.70.0",
     "typescript": "7.0.2"
   },
   "devEngines": {
